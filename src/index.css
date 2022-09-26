@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  /* outline: 1px solid black; */
+}
+
+:root{
+  --clr-off-white: #eeeeee;
+  --clr-red: #a91919;
+  --clr-white: white;
+  --clr-gray: #cccccc;
+  --clr-accent: rgb(47, 160, 135);
+  font-size: 10px;
+}
+
+ion-icon{
+  font-size: 2em;
+}

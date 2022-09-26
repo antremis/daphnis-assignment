@@ -1,0 +1,51 @@
+nav{
+    background-color: var(--clr-red);
+    color: var(--clr-white);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+  }
+  
+  nav .Logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 3rem;
+  }
+  
+  #logo{
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    background-color: var(--clr-gray);
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  nav .Logo h1{
+    font-size: 3rem;
+  }
+  
+  nav .navigation{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+  }
+  
+  nav .navigation li{
+    cursor: pointer;
+  }
+  
+  nav .options{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+  }
